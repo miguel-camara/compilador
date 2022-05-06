@@ -1,2 +1,2 @@
-# compilador
+# Compiler
 Haskell to js compiler

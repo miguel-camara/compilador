@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Compilador</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header><h1>Compilador</h1></header>
+    <div class="left">
+      <textarea id="txtArea" name="textarea" rows="25" cols="72">
+      </textarea>
+    </div>
+    <div class="right">
+      <textarea id="result" name="textarea" rows="25" cols="72" disabled>
+      </textarea>
+    </div>
+    <button id="btn1" onclick="onRun();">Compilar</button>
+    <button id="btn2" onclick="onClean();">Limpiar</button>
+    <script src="app.js">document.getElementById("txtArea").value = "";</script>
+    <script src="resultados.js">
+    </script>
+
+  </body>
+</html>
